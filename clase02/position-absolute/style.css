@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* position absolute */
+/*
+- es como si este elemento flotara y los elementos siguientes ocupan su lugar.
+- busca un referencia para posicionarse, se ubica segun quien tenga una position relative, puede ser su padre, abuelo, ... o si nadie lo tiene lo hace con respecto al body. 
+*/
+
+.contenedor {
+  /* 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; */
+  margin: 100px auto;
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.caja {
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.caja-1 {
+  background-color: red;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  /* z-index: 1; */
+}
+
+.caja-2 {
+  background-color: green;
+  /* position: absolute; */
+}
+
+.caja-3 {
+  background-color: blue;
+}

@@ -1,0 +1,15 @@
+/* Herencia */
+/* es la capacidad que tienen algunos elementos de heredar algunas propiedades de sus elementos contenedores */
+
+.titulo {
+  color: brown;
+}
+
+.texto {
+  color: red;
+}
+
+.link {
+  color: inherit;
+  /* con esto estamos forzando que herede la propiedad */
+}

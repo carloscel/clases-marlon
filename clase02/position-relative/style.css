@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Position relative */
+/* el elemnto mantendra su posicion y mantendra su espacio reservado */
+/* las posiciones desde donde se mueve es en referencia al html */
+
+.contenedor {
+  /* 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; */
+  margin: 100px auto;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.caja {
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.caja-1 {
+  background-color: red;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  z-index: 1;
+}
+
+.caja-2 {
+  background-color: green;
+  position: relative;
+  left: 10px;
+  z-index: 10;
+}
+
+.caja-3 {
+  background-color: blue;
+}

@@ -1,0 +1,15 @@
+/* combinadores descendientes */
+.contenedor h2 {
+  color: blue;
+}
+
+/* combinador de hijo */
+.caja > p {
+  color: peru;
+}
+
+/* combinador de hermano adyacente */
+/* selecciona el elemento que este mas cercano a el */
+h3 + p {
+  color: red;
+}
